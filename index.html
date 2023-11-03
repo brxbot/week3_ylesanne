@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/697c2c5344.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/poster.css">
+    <link rel="stylesheet" href="css/carousel.css">
     <title>Week5</title>
 </head>
 <body>
@@ -46,6 +47,31 @@
             </div>
         </div>
 
+        <div class="container">
+            <div class="carousel">
+    
+                <div class="carousel__item carousel__item--visible">
+                    <img src="images/1.jpeg" alt="">
+                </div>
+    
+                <div class="carousel__item">
+                    <img src="images/2.jpeg" alt="">
+                </div>
+    
+                <div class="carousel__item">
+                    <img src="images/3.jpeg" alt="">
+                </div>
+    
+                <div class="carousel__actions">
+                    <button id="carousel__button--prev" aria-label="Previos slide"><</button>
+                    <button id="carousel__button--next" aria-label="Next slide">></button>
+    
+                </div>
+    
+            </div>
+    
+
+
         <footer>
             <h3>Find me to discuss the movie</h3>
              
@@ -61,6 +87,7 @@
 
 
     </div>
+    <script src="scripts/carousel.js"></script>
     <script src="scripts/app.js"></script>
 </body>
 </html>
